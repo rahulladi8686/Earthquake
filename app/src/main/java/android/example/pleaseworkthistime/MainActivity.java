@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity implements LoaderCallbacks<A
     /** URL for earthquake data from the USGS dataset */
     private static final int EARTHQUAKE_LOADER_ID = 1;
     private static final String USGS_REQUEST_URL =
-            "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&orderby=time&minmag=6&limit=10";
+            "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&orderby=time&minmag=2&limit=10";
     /** Adapter for the list of earthquakes */
     private EarthquakeAdapter mAdapter;
     @Override
